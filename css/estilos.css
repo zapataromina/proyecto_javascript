@@ -1,0 +1,269 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   height: 100vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@300;400&family=Roboto:wght@300;500;700&family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
+.fondoGris_flex{
+   width:100%;
+   height: auto;
+   background-color: #434547;
+   color: white; 
+   display: flex;
+   justify-content: center;
+}
+
+.bgGris{
+   background-color: #434547;
+}
+.logo{
+   display: flex;
+   align-items: center;
+   width:50%;
+   padding-left: 2rem;
+   }
+
+.navegador{
+   padding-right: 2.5rem;
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  
+
+}
+.colorLink{
+   color: white;
+   text-decoration: none;
+}
+
+.imagenPrincipal{
+  background-image: linear-gradient(to right,rgb(0 0 0 /.5),rgb(0 0 0 /.5)),url("../assets/imagenes/ba1.jpg");
+  width:100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+
+}
+.parrafo{
+   position: relative;
+   top: 10%;
+   left: 26%;
+   color: white;
+   justify-content: flex-end;
+   text-align:right;
+   line-height: 1.4;
+   font-size: 1rem;
+   margin-right: 200px; 
+   width: 50%;
+   
+}
+.titulo{
+   display: flex;
+   flex-direction: column;
+   text-align:center;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 1.6;
+   margin-top: 2%;
+   margin-bottom: 2%;
+}
+.contenedor_flex{
+   margin: 0 auto;
+   width: 70%;
+   display:flex;
+   align-content: space-between;
+   
+}
+.tarjeta{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-content: space-between;
+   border: 1px solid #bfbcbc;
+   border-radius: 10px;
+   box-shadow: -8px 1px 27px -5px rgba(0,0,0,0.72);
+   margin:0 10px;
+   padding:0;
+   font-size: 1rem;
+}
+
+.img{
+   width: 100%;
+   border-radius: 10px;
+}
+.parrafoTarjeta{
+   padding:10px;
+   width: 90%
+
+   }
+.parrafoTarjeta h3{
+   font-size: 23px;
+}
+
+.link{
+   color: white;
+   text-decoration: none;
+   width: auto;
+   display: inline-block;
+   padding:5px 15px;
+   margin: 10px 0;
+   border-radius: 5px;
+   border: 1px solid white;
+
+  }
+  .green{
+   display: inline-block;
+   background-color: rgb(97, 194, 93);
+   border: 1px solid rgb(97, 194, 93);
+   padding: 5px 15px;
+   margin: 10px;
+   margin-right: 0px; 
+   border-radius: 5px;
+   color:white;
+   
+  }
+.java{
+   display: inline-block;
+   color: black;
+   text-decoration: none;
+   background-color:orange;
+   padding: 5px 5px;
+   margin: 5px;
+   margin-left: 0px; 
+   border-radius: 5px;
+
+   
+}
+.react{
+   display: inline-block;
+   color: white;
+   text-decoration:none;
+   background-color: rgb(17, 143, 182);
+   padding: 5px 5px;
+   margin:5px;
+   margin-left: 0px;
+   border-radius: 5px;
+   
+}  
+.negocios{
+   display: inline-block;
+   color:white;
+   text-decoration: none;
+   background-color:grey;
+   padding: 5px 5px;
+   margin: 5px;
+   margin-left: 0px;
+   border-radius: 5px;
+   
+} 
+.startups{
+   display: inline-block;
+   color:white;
+   text-decoration: none;
+   background-color: red;
+   padding: 5px 5px;
+   margin: 5px;
+   margin-left: 0px;
+   border-radius: 5px;
+   
+}
+.parrafo2{
+      background-color: rgb(53,58,64); 
+      color: white;
+      width: 50%;
+      padding: 10px 15px;
+      line-height: 1.6;
+      font-size: 1em;
+   }
+
+.paginaPartida{
+   display: flex;
+   width:100%;
+   flex-direction: row;
+}
+.img2{
+   width: 50%;
+}
+
+.contiene{
+   width: 65%;
+   margin-left: 10rem;
+   position: relative;
+  flex-direction: center;
+  justify-content: center;
+ 
+ }
+
+.fondoFooter{
+   background-color: rgb(6, 71, 97);
+  
+}
+
+@media screen and (max-width:768px){
+  .fondoGris_flex{
+   flex-direction: column;
+   padding-right: initial;
+  }
+  .logo{ 
+   width: 100%;
+   justify-content: space-between;
+   padding-right: 2rem;
+   margin-bottom: 0.5rem;
+  }
+  .navegador{
+   width: 100%;
+   flex-direction: column;
+   padding-right:initial;
+   justify-content: center;
+   align-content: center;
+
+  }
+  .colorLink{
+   display:inline-block;
+   width: 100%;
+   text-align: center;
+   padding-top: 0.2rem;
+   padding-bottom: 0.2rem;
+  }
+  
+.imagenPrincipal{
+   height: 60%;
+}
+.parrafo{
+  text-align: center;
+
+}
+.parrafo.colorLink{
+   text-align: center;
+}
+  .contenedor_flex{
+   flex-direction: column; 
+   align-items: center;
+  }
+.tarjeta{
+   margin-bottom: 1rem;
+}
+.paginaPartida{
+   flex-direction: column;
+}
+.img2{
+   width: 100%;
+}
+.parrafo2{
+   width: 100%;
+}
+.contiene{
+   width: 50%;
+   flex-direction: column;
+   align-items: center;
+}
+}
